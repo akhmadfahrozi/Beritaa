@@ -6,8 +6,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object NetworkClient {
-    val BASE_URL =
-        "http://akhmad-fahrozi.com/lauwbanews/"
+    val BASE_URL = "http://akhmad-fahrozi.com/lauwbanews/"
     private var retrofit: Retrofit? = null
     fun getRetrofitClient(): Retrofit? {
         if (retrofit == null)

@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
                 startActivity(pindah)
             }
             R.id.bt_about -> {
-                val pindah = Intent(this@MainActivity, isi::class.java)
+                val pindah = Intent(this@MainActivity, Tambah_berita::class.java)
                 startActivity(pindah)
 
             }
@@ -49,3 +49,4 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         }
     }
 }
+

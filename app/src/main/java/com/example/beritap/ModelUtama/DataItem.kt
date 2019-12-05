@@ -1,6 +1,7 @@
 package com.example.beritap.ModelUtama
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class DataItem(
 
@@ -24,4 +25,4 @@ data class DataItem(
 
 	@field:SerializedName("isi_berita")
 	val isiBerita: String? = null
-)
+): Serializable

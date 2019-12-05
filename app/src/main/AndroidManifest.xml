@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".isi"></activity>
+        <activity android:name=".Detail_berita"></activity>
+        <activity android:name=".Tambah_berita" />
+        <activity android:name=".isi" />
         <activity android:name=".AdapterUtama" />
         <activity android:name=".MainActivity">
             <intent-filter>

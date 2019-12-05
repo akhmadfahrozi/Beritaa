@@ -23,6 +23,8 @@ class isi : AppCompatActivity() {
         loadData()
     }
 
+
+
     private fun loadData() {
         NetworkClient.getService()?.getBeritaUtama()
             ?.enqueue(object : Callback<ResponseBeritaUtama> {
