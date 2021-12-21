@@ -2,6 +2,7 @@ package com.example.beritap
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.beritap.ModelUtama.DataItem
@@ -16,11 +17,15 @@ import retrofit2.Response
 class isi : AppCompatActivity() {
     private var data: List<DataItem> = ArrayList()
     private var adapter: AdapterUtama? = null
+    lateinit var Card:CardView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_isi)
         loadData()
+
+
+
     }
 
 
